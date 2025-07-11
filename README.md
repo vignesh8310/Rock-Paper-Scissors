@@ -12,7 +12,7 @@ Click on Rock, Paper, or Scissors — and see if you can beat the computer!
 - The game shows who won and updates the scores.
 - If it’s a draw, you can play again instantly.
 
----
+```
 
 ## 📂 Project Structure
 
@@ -22,7 +22,7 @@ Click on Rock, Paper, or Scissors — and see if you can beat the computer!
 ├── style.css # The game styling
 ├── app.js # The game logic
 └── images/ # Images for Rock, Paper, and Scissors
----
+```
 
 ## 🛠️ Tech Used
 
