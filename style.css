@@ -1,0 +1,68 @@
+* {  
+  margin: 0;                /* Reset margin */  
+  padding: 0;               /* Reset padding */  
+  text-align: center;       /* Center all text */  
+}
+
+h1 {  
+  background-color: #081b31;  /* Game heading background */  
+  color: #fff;                /* Heading text color */  
+  height: 5rem;               /* Height of heading */  
+  line-height: 5rem;          /* Vertically center text */  
+}
+
+.choice {  
+  height: 165px;             /* Size of choice circle */  
+  width: 165px;  
+  border-radius: 50%;        /* Make it round */  
+  display: flex;             /* Center image inside */  
+  justify-content: center;  
+  align-items: center;  
+}
+
+.choice:hover {  
+  cursor: pointer;           /* Pointer cursor on hover */  
+  background-color: #081b31; /* Highlight on hover */  
+}
+
+img {  
+  height: 150px;             /* Image size inside choice */  
+  width: 150px;  
+  object-fit: cover;         /* Keep aspect ratio */  
+  border-radius: 50%;        /* Round image */  
+}
+
+.choices {  
+  display: flex;             /* Arrange choices in a row */  
+  justify-content: center;   /* Center choices */  
+  align-items: center;  
+  gap: 3rem;                 /* Space between choices */  
+  margin-top: 5rem;          /* Space above choices */  
+}
+
+.score-board {  
+  display: flex;             /* Arrange scores side by side */  
+  justify-content: center;  
+  align-items: center;  
+  font-size: 2rem;           /* Score labels size */  
+  margin-top: 3rem;          /* Space above scoreboard */  
+  gap: 5rem;                 /* Space between scores */  
+}
+
+#user-score,  
+#comp-score {  
+  font-size: 4rem;           /* Big score numbers */  
+}
+
+.msg-container {  
+  margin-top: 5rem;          /* Space above message */  
+}
+
+#msg {  
+  background-color: #081b31; /* Message background */  
+  color: #fff;               /* Message text color */  
+  font-size: 2rem;           /* Message size */  
+  display: inline;           /* Fit to text */  
+  padding: 1rem;             /* Space inside message */  
+  border-radius: 1rem;       /* Rounded corners */  
+}

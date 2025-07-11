@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Makes sure special characters display properly -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Makes the page responsive on all screen sizes -->
+
+    <title>Rock Paper Scissors Game</title>
+    <!-- The text that appears in the browser tab -->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Linking your CSS file to style the page -->
+  </head>
+
+  <body>
+    <!-- Main heading for the game -->
+    <h1>Rock Paper Scissors</h1>
+
+    <!-- Container for all the choices: Rock, Paper, Scissors -->
+    <div class="choices">
+      <!-- Each choice is a clickable circle with an image -->
+
+      <!-- Rock option -->
+      <div class="choice" id="rock">
+        <img src="./images/rock.png" />
+      </div>
+
+      <!-- Paper option -->
+      <div class="choice" id="paper">
+        <img src="./images/paper.png" />
+      </div>
+
+      <!-- Scissors option -->
+      <div class="choice" id="scissors">
+        <img src="./images/scissors.png" />
+      </div>
+    </div>
+
+    <!-- Scoreboard showing player and computer scores -->
+    <div class="score-board">
+      <!-- Player's score -->
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+      </div>
+
+      <!-- Computer's score -->
+      <div class="score">
+        <p id="comp-score">0</p>
+        <p>Comp</p>
+      </div>
+    </div>
+
+    <!-- Message container to show game status -->
+    <div class="msg-container">
+      <p id="msg">Play your move</p>
+    </div>
+
+    <!-- Link to your JavaScript file that runs the game logic -->
+    <script src="app.js"></script>
+  </body>
+</html>
